@@ -1,8 +1,8 @@
 //your JS code here. If required.
 
-let div = document.getElementById("main");
-let button = document.getElementById("btn");
+let paragraph = document.getElementById("status");
+let button = document.getElementById("enterBtn");
 
 button.addEventListener('click',()=>{
-	div.innerHTML = `<h1>Entered Metaverse<h1>`
+	paragraph.innerHTML = "<h1>Entered Metaverse</h1>"
 })
